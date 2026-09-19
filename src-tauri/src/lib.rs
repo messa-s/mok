@@ -1,7 +1,7 @@
 // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
 #[tauri::command]
 fn greet(name: &str) -> String {
-    format!("Helloskkh This is me, {}! You'jjm,n,mnm,n,mnm,n,mnjjjjjjjjjjjjjjjve been greeted from Rust!", name)
+    format!("Helloskkh This is me, {}! Frimw mamska", name)
 }
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
